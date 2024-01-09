@@ -1,17 +1,19 @@
 #include<stdio.h>
 int main(){
-    int a,c;
-    char b;
-  
-    printf("Enter first Number \n");
-    scanf("%d",&a);
-    printf("Enter operation \n");
-    scanf("%c",&b);
-    printf("Enter second Number \n");
-    scanf("%d",&c);
+    // type declaration => declare var before using it!
+    // Valid
+    int a = 22;
+    int b = a;
+    int c = b+1;
+    int d= 1,e;
 
-    int res = (a ,b ,c);
-    printf("Result is %d",res);
+    int a,b,c;
+    a=b=c=1;
+
+    // Arithmetic instructions => operands must be RHS
+    // Valid
+    int sum = a+b; 
+    int multiply = a*b;
 
 
 };
