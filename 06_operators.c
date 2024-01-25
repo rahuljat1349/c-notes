@@ -14,10 +14,6 @@ int main(){
     // int x;
     // printf("enter a number :");
     // scanf("%d",&x);
-    // printf("%d \n",x%2 == 0);
-
-    // 2:00:00
-
-    
+    // printf("%d \n",x%2 == 0);   
 
 }
