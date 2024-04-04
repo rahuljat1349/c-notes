@@ -1,9 +1,11 @@
 #include<stdio.h>
 
 void printHello();
+void loop();
 int main(){
 
 printHello();
+loop();
 
 
 };
@@ -11,3 +13,14 @@ printHello();
 void printHello(){
     printf("Hello \n");
 }
+
+int i = 0;
+void loop(){
+    if (i <= 5 )
+    {
+        printf("%d \n",i);
+        i++;
+        loop();
+    }
+    
+};
