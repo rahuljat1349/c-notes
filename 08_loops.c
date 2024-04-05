@@ -15,4 +15,14 @@ int main(){
 // }
 
 
+
+// do while loop
+int n;
+do{
+    printf("Enter an odd number to exit loop :");
+    scanf("%d" ,&n);
+} while (n % 2 == 0);
+
+
+
 };
