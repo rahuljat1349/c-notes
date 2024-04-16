@@ -28,18 +28,41 @@ struct student s3 = {003, "Rahul", 8.0};
 
 
 
-puts(s3.name);
-printf("%d",s3.rollNo);
+// puts(s3.name);
+// printf("%d",s3.rollNo);
 
 
 
-// 8:47
+
 // pointers to structures
 
+struct student *ptr = &s3;
+
+// puts((*ptr).name);
+// or (Arrow operator)
+puts(ptr->name);
 
 
 
 
+// passing structures to function
+void printinfo(struct student s3);
+// structure are called by value (copy)
+
+
+
+
+// typedef keyword (alias)
+typedef struct coputerEngineeringStudent{
+    char name;
+    int rollNo;
+    float cgpa;
+}coe;
+// intializing
+coe student1;
+
+
+// 9:11
 
 
 
